@@ -1,0 +1,187 @@
+fileFormatVersion: 2
+guid: 96aee3d45268c4e1d90d4c0646ae6c1f
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Body
+    100004: Geometry
+    100006: Hip_Controller
+    100008: L_Ankle
+    100010: L_Foot
+    100012: L_Foot_2
+    100014: L_Foot_Con
+    100016: L_Foot_UP
+    100018: L_Hip
+    100020: L_Hip_Pole
+    100022: L_Knee
+    100024: L_Leg
+    100026: L_Toe
+    100028: L_Toe_2
+    100030: Lid
+    100032: Light_1
+    100034: Light_2
+    100036: Light_3
+    100038: MR_TeaPot__MAIN_
+    100040: R_Ankle
+    100042: R_Foot
+    100044: R_Foot_2
+    100046: R_Foot_Con
+    100048: R_Foot_UP
+    100050: R_Hip
+    100052: R_Hip_Pole
+    100054: R_Knee
+    100056: R_Leg
+    100058: R_Toe
+    100060: R_Toe_2
+    100062: Spout
+    100064: Spout_2
+    100066: Spout_3
+    100068: Spout_4
+    100070: Spout_5
+    100072: Spout_6
+    100074: Spout_7
+    100076: Spout_8
+    100078: Stage
+    400000: //RootNode
+    400002: Body
+    400004: Geometry
+    400006: Hip_Controller
+    400008: L_Ankle
+    400010: L_Foot
+    400012: L_Foot_2
+    400014: L_Foot_Con
+    400016: L_Foot_UP
+    400018: L_Hip
+    400020: L_Hip_Pole
+    400022: L_Knee
+    400024: L_Leg
+    400026: L_Toe
+    400028: L_Toe_2
+    400030: Lid
+    400032: Light_1
+    400034: Light_2
+    400036: Light_3
+    400038: MR_TeaPot__MAIN_
+    400040: R_Ankle
+    400042: R_Foot
+    400044: R_Foot_2
+    400046: R_Foot_Con
+    400048: R_Foot_UP
+    400050: R_Hip
+    400052: R_Hip_Pole
+    400054: R_Knee
+    400056: R_Leg
+    400058: R_Toe
+    400060: R_Toe_2
+    400062: Spout
+    400064: Spout_2
+    400066: Spout_3
+    400068: Spout_4
+    400070: Spout_5
+    400072: Spout_6
+    400074: Spout_7
+    400076: Spout_8
+    400078: Stage
+    2100000: No Name
+    2300000: Stage
+    3300000: Stage
+    4300000: Body
+    4300002: L_Leg
+    4300004: R_Leg
+    4300006: Stage
+    7400000: __
+    9500000: //RootNode
+    10800000: Light_1
+    10800002: Light_2
+    10800004: Light_3
+    13700000: Body
+    13700002: L_Leg
+    13700004: R_Leg
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
