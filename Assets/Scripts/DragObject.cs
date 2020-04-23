@@ -4,19 +4,28 @@ using System.Collections.Generic;
 using UnityEngine;
 using Vuforia;
 using UnityEngine.SceneManagement;
+
 public class DragObject : MonoBehaviour
 {
     [SerializeField] private float speed;
+
     public static Vector3 startPos;
     public static bool canStay;
+
+    private static bool _placedJackie = false;
+    public static bool PlacedJackie { get => _placedJackie; set => _placedJackie = value; }
+
     private Ray ray;
     private RaycastHit hit;
     private MovableObject currentObject;
+
+
     void FixedUpdate()
     {
-        if (Input.touchCount > 0 && !HandleCollision.animationPlaying)
+        if (Input.touchCount > 0)
         {
             Touch t = Input.GetTouch(0);
+
             switch (t.phase)
             {
                 case TouchPhase.Began:
@@ -28,27 +37,39 @@ public class DragObject : MonoBehaviour
                         {
                             currentObject = m_Object;
                             startPos = m_Object.transform.localPosition;
-                            currentObject.GetComponent<Outline>().enabled = true;
+                        }
+                    }  
+                    break;
+                      case TouchPhase.Moved:
+
+                    if (currentObject && !canStay)
+                    {
+                        if (SceneManager.GetActiveScene() == SceneManager.GetSceneByName("Page5"))
+                        {
+                            currentObject.gameObject.transform.Translate(Time.deltaTime * speed * new Vector3(t.deltaPosition.x, 0, 0), Space.World);
+                        }
+                        else
+                        {
+                            currentObject.gameObject.transform.Translate(Time.deltaTime * speed * new Vector3(t.deltaPosition.x, 0, t.deltaPosition.y), Space.World);
                         }
                     }
                     break;
-                case TouchPhase.Moved:
+
+                case TouchPhase.Ended:
                     if (currentObject && !canStay)
                     {
-                        currentObject.gameObject.transform.Translate(Time.deltaTime * speed * new Vector3(t.deltaPosition.x, 0, t.deltaPosition.y), Space.World);
-                    }
-                    break;
-                case TouchPhase.Ended:
-                    currentObject.GetComponent<Outline>().enabled = false;
-                    if (currentObject && !canStay && (currentObject.CompareTag("mediumPorridge") || currentObject.CompareTag("hotPorridge") || currentObject.CompareTag("coldPorridge")))
-                    {
-                        currentObject.transform.localPosition = startPos;
+                        //if (!PlacedJackie)
+                        //{
+                        //    currentObject.transform.localPosition = startPos;
+                        //}
+
                         currentObject = null;
                     }
                     break;
             }
+
         }
+
+
     }
 }
-
-

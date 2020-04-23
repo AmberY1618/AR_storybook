@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
-    <ImageTarget name="newpage5" size="0.400000 0.596309" />
-    <ImageTarget name="page5" size="0.300000 0.447232" />
-    <ImageTarget name="pg2Updated" size="30.000000 44.175392" />
-    <ImageTarget name="house2-1-word" size="30.000000 16.015625" />
-    <ImageTarget name="house2-1-noword" size="30.000000 16.015625" />
-    <ImageTarget name="page2" size="30.000000 44.175392" />
+    <ImageTarget name="pg4-marker" size="0.300000 0.452568" />
+    <ImageTarget name="pg1-marker" size="0.300000 0.452568" />
+    <ImageTarget name="pg2-marker-bw" size="0.300000 0.452568" />
   </Tracking>
 </QCARConfig>
